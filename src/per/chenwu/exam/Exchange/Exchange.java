@@ -30,8 +30,16 @@ public class Exchange {
             return fun(N-1)+fun(N-2);
     }
 
+    static{
+        String aaa = "fff";
+    }
+
     public static void main(String[] args) {
         int n = fun(5);
         System.out.println(n);
+        String a = "111222";
+        a = "hello";
+        System.out.println(a);
+
     }
 }
